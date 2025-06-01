@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Task4.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap/Task4.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   
+ <div class="sidebar">
+   <h1>Portfolio</h1>
+  <nav>
+    <a href="#content-text"><i class="fa -solid fa-user"></i>ABOUT</a><br><br><br>
+    <a href="#project"><i class="fa-solid fa-folder-open"></i>PROJECT</a><br><br><br>
+    <a href="#contact"><i class="fa-solid fa-envelope"></i>CONTACT</a><br><br><br>
+    <a href="#todolist"><i class="fa-solid fa-list-check"></i>TO-DO LIST</a><br><br><br>
+    <a href="#productlist"><i class="fa-solid fa-cart-shopping"></i>PRODUCTS</a>
+  </nav>
+ </div>
+ <!-----------------------about----------------------------------------->
+ <div class="content-text" id="content-text">
+   <h1>Hi,I'm  <span>SOWNDARYA!</span></h1><br>
+            <p>A passionate web developer.I love creating responsive website and I'm learning modern web development
+               and enthusiastic first-year MCA
+                    student with a deep interest in web development.I'm currently focused on building real-world projects that showcase my 
+                    skills and help me grow into a confident full-stack developer.My goal is to become a proficient full-stack developer who can build complete,responsive
+                     and user-friendly web applications from scratch.I'm excited to take new challenges  and opportunities in the tech industry.
+            </p>
+  </div>
+  <!--------------------------projects------------------------------------------->
+
+<div class="project" id="project">
+  <h1>Portfolio</h1>
+   <div class="portfolio-container">
+            <div class="portfolio-layer">
+                <h4>WEB PAGE</h4>
+                <p>This simple webpage is built using HTML,CSS and include basic JavaScript </p>
+            </div>
+            <div class="portfolio-layer">
+                  <h4>MY PRACTICE PROJECT</h4>
+                <p>This simple to-do list helps you organize your daily tasks.
+                    You can add new tasks and remove them .It's built using HTML,CSS,JavaScript
+                </p>
+            </div>
+            <div class="portfolio-layer">
+                <h4>QUIZ WEBPAGE</h4>
+                <p>This short quiz helps you review key concepts of HTML,CSS and JavaScript.
+                    It's a fun and interactive way to reinforce you understanding
+                    of web development basics
+                </p>
+            </div>
+            <div class="portfolio-layer">
+                <h4>SIMPLE WEBPAGE</h4>
+                <p>The goal of this project is to understand how
+                    webpages are built from the ground up.
+                </p>
+            </div>
+    </div>
+</div>
+<!-----------------contact----------------------------------------------->
+
+<div class="contact" id="contact">
+  <div class="contact-text">
+    <h2>Contact Me</h2><br>
+    <p><i class="fas fa-paper-plane"></i>    sowndaryakokkirala5@gmail.com</p>
+    <p><i class="fas fa-phone-square-alt"></i>   +91 1234567890</p>
+  </div>
+ 
+  <div class="contact-form">
+     <form>
+     <input type="text" name="Name"  placeholder="Your Name" required/><br><br>
+     <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <button onclick="showAlert()" type="submit">SUBMIT</button>
+    </form>
+  </div>  
+  </div>
+</div>
+</div>
+<!------------------------todo list-------------------------------------------->
+<div class="todolist" id="todolist">
+<h1>TO-DO   LIST</h1>  
+<div class="todolist1">
+  <div class="list-head">
+    <input type="text" class="entered-list">
+    <button class="add-list">Add</button>
+ </div>
+ <div class="tasks">
+   <!---- <div class="item">
+        <p>now item here</p>
+        <div class="item-btn">
+            <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>-->
+ </div>
+</div>
+</div>
+<!---------product list--------------------------->
+<div id="productlist">
+  <h1>Beauty Products</h1>
+  <input type="text" id="search" placeholder="Search beauty products...">
+
+  <div class="product-list" id="productList">
+    <!-- Products will be injected here -->
+  </div>
+
+       
+</div>
+<script src="Task4.js">
+
+</script>
+</body>
+</html>
